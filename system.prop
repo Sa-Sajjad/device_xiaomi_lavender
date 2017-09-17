@@ -1,6 +1,10 @@
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
+# ART
+dalvik.vm.dex2oat-filter=speed
+dalvik.vm.image-dex2oat-filter=speed
+
 # Force triple frame buffers
 ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 
