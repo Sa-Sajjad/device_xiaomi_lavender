@@ -21,3 +21,9 @@ dalvik.vm.dex2oat64.enabled=true
 # Dexopt
 pm.dexopt.first-boot=quicken
 pm.dexopt.bg-dexopt=everything
+
+# IMS - disable logging
+persist.ims.disableADBLogs=1
+persist.ims.disableDebugLogs=1
+persist.ims.disableIMSLogs=1
+persist.ims.disableQXDMLogs=1
