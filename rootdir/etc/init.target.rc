@@ -121,7 +121,7 @@ on boot
 
 #DT2W
     chown system system /sys/touchpanel/double_tap
-    chmod 0660 /sys/touchpanel/double_tap
+    chmod 0664 /sys/touchpanel/double_tap
 
 #Create folder dump yuv images while debugging
     mkdir /data/vendor/camera 0770 camera camera
