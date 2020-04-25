@@ -8,3 +8,6 @@ ro.surface_flinger.max_frame_buffer_acquired_buffers=3
 debug.cpurend.vsync=false
 vendor.display.disable_rotator_downscale=1
 vendor.display.disable_scaler=0
+
+# Dalvik
+dalvik.vm.dex2oat64.enabled=true
