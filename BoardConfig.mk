@@ -121,6 +121,9 @@ BOARD_HAS_QCA_FM_SOC := "cherokee"
 # GPS
 USE_DEVICE_SPECIFIC_GPS := true
 
+# HWUI
+HWUI_COMPILE_FOR_PERF := true
+
 # HIDL
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/manifest.xml
