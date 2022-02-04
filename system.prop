@@ -17,3 +17,7 @@ vendor.display.disable_scaler=0
 
 # Dalvik
 dalvik.vm.dex2oat64.enabled=true
+
+# Dexopt
+pm.dexopt.first-boot=quicken
+pm.dexopt.bg-dexopt=everything
