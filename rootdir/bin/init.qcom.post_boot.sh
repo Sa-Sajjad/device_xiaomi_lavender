@@ -430,6 +430,13 @@ else
             echo 512 > /sys/module/process_reclaim/parameters/per_swap_size
             ;;
         esac
+        # use 20 for <= 3GB &
+        # use 40 for >= 4GB targets.
+        if [ $MemTotal -le 3145728 ]; then
+            echo 20 > /proc/sys/vm/vfs_cache_pressure
+        else            
+            echo 40 > /proc/sys/vm/vfs_cache_pressure
+        fi        
     fi
 
     # Set allocstall_threshold to 0 for all targets.
