@@ -15,6 +15,9 @@ $(call inherit-product, device/xiaomi/lavender/device.mk)
 # Inherit some common Corvus stuff.
 $(call inherit-product, vendor/nusantara/config/common_full_phone.mk)
 
+# Charging Animation
+USE_PIXEL_CHARGING := true
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := nad_lavender
 PRODUCT_DEVICE := lavender
