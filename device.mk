@@ -475,5 +475,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_BOOT_JARS += \
     WfdCommon
 
+# dirac
+PRODUCT_PACKAGES += \
+    Dirac
+
 # Vendor properties
 -include $(LOCAL_PATH)/vendor_prop.mk
