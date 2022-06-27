@@ -17,9 +17,9 @@ INITIAL_COPYRIGHT_YEAR=2019
 MY_DIR="${BASH_SOURCE%/*}"
 if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
-DU_ROOT="${MY_DIR}/../../.."
+ANDROID_ROOT="${MY_DIR}/../../.."
 
-HELPER="$DU_ROOT"/vendor/du/build/tools/extract_utils.sh
+HELPER="$ANDROID_ROOT"/vendor/nusantara/build/tools/extract_utils.sh
 if [ ! -f "$HELPER" ]; then
     echo "Unable to find helper script at $HELPER"
     exit 1
@@ -27,7 +27,7 @@ fi
 . "$HELPER"
 
 # Initialize the helper
-setup_vendor "${DEVICE}" "${VENDOR}" "${DU_ROOT}"
+setup_vendor "${DEVICE}" "${VENDOR}" "${ANDROID_ROOT}"
 
 # Copyright headers and guards
 write_headers
