@@ -7,6 +7,8 @@ git clone https://github.com/Sa-Sajjad/device_xiaomi_lavender -b hmp device/xiao
 
 # Token
 
+Expired 
+
 ```bash
 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
 ```
