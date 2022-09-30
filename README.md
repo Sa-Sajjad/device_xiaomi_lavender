@@ -10,13 +10,13 @@ git clone https://github.com/Sa-Sajjad/device_xiaomi_lavender -b hmp device/xiao
 Expired 
 
 ```bash
-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
+
 ```
 
 # Kernel tree
 
 ```bash
-git clone https://github.com/projects-nexus/nexus_kernel_xiaomi_lavender -b hmp-caf kernel/xiaomi/lavender
+git clone  -b hmp-caf kernel/xiaomi/lavender
 ```
 
 # Vendor Tree
